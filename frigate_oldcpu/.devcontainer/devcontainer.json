@@ -12,7 +12,7 @@
 		"timonwong.shellcheck",
 		"esbenp.prettier-vscode"
 	],
-	"settings": { 
+	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash"
 	}
 }

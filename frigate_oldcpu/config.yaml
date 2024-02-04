@@ -1,5 +1,5 @@
 name: Frigate (For old x86_64 CPU without AVX)
-version: 0.13.1-kepten-v4
+version: 0.13.1-kepten-v4-sysadmin
 panel_icon: "mdi:cctv"
 panel_title: Frigate
 slug: frigate-oldcpu
@@ -46,7 +46,7 @@ video: true
 tmpfs: true
 full_access: false
 privileged:
-  - PERFMON
+  - SYS_ADMIN
 environment:
   CONFIG_FILE: /config/frigate.yml
 schema:
